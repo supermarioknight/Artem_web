@@ -9,13 +9,14 @@
     top: 0;
     width: 100%;
     font-family: 'Playfair Display', serif;
+    height: 210px;
 }
 
 
 .login{
   font-family: 'Playfair Display', serif;
-      margin-top: 53px;
-      font-size: 14px;
+      margin-top: 62px;
+      font-size: 18px;
       float: right;
       padding-left: 5px;
       margin-right: 25px;
@@ -24,8 +25,8 @@
 
 .about{
       font-family: 'Playfair Display', serif;
-      margin-top: 53px;
-      font-size: 14px;
+      margin-top: 62px;
+      font-size: 18px;
       float: right;
       padding-left: 5px;
       padding-right: 15px;
@@ -35,8 +36,8 @@
 
 .home{
       font-family: 'Playfair Display', serif;
-      margin-top: 53px;
-      font-size: 14px;
+      margin-top: 62px;
+      font-size: 18px;
       float: right;
       padding-left: 5px;
       padding-right: 15px;
@@ -46,8 +47,8 @@
 
 .signup {
   font-family: 'Playfair Display', serif;
-  margin-top: 53px;
-  font-size: 14px;
+  margin-top: 70px;
+  font-size: 18px;
   float: right;
   padding-left: 5px;
   padding-right: 50px;
@@ -71,12 +72,12 @@ li a:hover {
 .logo{
   margin-top: 10px;
   margin-left: 60px;
-  height: 135px;
+  height: 225px;
   background-size: 45px 45px;
 }
 
 .topnav {
-  height: 135px;
+  height: 225px;
 }
 
 .footer {
@@ -84,7 +85,7 @@ li a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #111;
+    background-color: #5F5F5F;
     color: white;
     text-align: center;
 }
@@ -125,7 +126,7 @@ li a:hover {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 45px;
+  width: 15px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -136,16 +137,16 @@ li a:hover {
 }
 
 .fa-facebook {
-  background: #111;
+  background: #5F5F5F;
   color: white;
 }
 
 .fa-twitter {
-  background: #111;
+  background: #5F5F5F;
   color: white;
 }
 
 .fa-instagram {
-  background: #111;
+  background: #5F5F5F;
   color: white;
 }

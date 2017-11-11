@@ -3,20 +3,8 @@ import {Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 import Type from '../components/Type';
 import MainPageContainer from './MainPageContainer';
+import Footer from '../components/Footer.js'
 import Chart from '../components/Chart.js'
-
-
-// export default class Routes extends Component {
-//    render() {
-//       return(
-//        <div>
-//          <Switch>
-//            <Route path="/" exact={true} component={Type}/>
-//          </Switch>
-//        </div>
-//      )
-//    }
-// }
 
 const Routes = ({ name }) => {
     return (
@@ -24,7 +12,6 @@ const Routes = ({ name }) => {
           <div>
             <Switch>
               <Route path="/" exact={true} component={MainPageContainer}/>
-              <Route path="/chart" exact={true} component={Chart}/>
             </Switch>
           </div>
         </div>
