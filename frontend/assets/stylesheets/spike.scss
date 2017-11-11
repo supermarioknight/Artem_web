@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+  font-size: 100px;
+}
+
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+.typed-words{
+  line-height: 110px;
+  font-size: 100px;
+  font-family: 'Playfair Display', serif;
+  background-image: linear-gradient(180deg,transparent 75%,#fcf113 0);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  -webkit-transition: background-size .4s ease;
+  -moz-transition: background-size .4s ease;
+  -ms-transition: background-size .4s ease;
+  -o-transition: background-size .4s ease;
+  transition: background-size .4s ease;
+  color: #000;
+}
+
+
+.type-wrap {
+  border-style: solid;
+}
+
+.typed-words:hover{
+  background-size: 100% 100%;
+}
+
+.type-container{
+  width: 100%;
+  border-style: solid;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.type-caption {
+  height: 100px;
+  width: 700px;
+  border-style: solid;
+}
