@@ -30,6 +30,3 @@ class Chart extends React.Component {
       );
   }
 }
-
-export default Chart;
->>>>>>> 9bbf5350129f22747cd646f7a3913eb872f19591

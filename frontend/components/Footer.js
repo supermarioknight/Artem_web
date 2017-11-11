@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <div className="footer">
 
-      <div className="socialbar"
+      <div className="socialbar">
         <li className="left"> ©2017 Artem, Inc. </li>
         <li className="right1"><a href="#" className="fa fa-facebook"></a></li>
         <li className="right1"><a href="#" className="fa fa-twitter"></a></li>
