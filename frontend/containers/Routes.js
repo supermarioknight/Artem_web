@@ -3,9 +3,8 @@ import {Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 import Type from '../components/Type';
 import MainPageContainer from './MainPageContainer';
-import Chart from '../components/chart.js'
 import Footer from '../components/Footer.js'
-
+import Chart from '../components/Chart.js'
 
 // export default class Routes extends Component {
 //    render() {
@@ -24,8 +23,13 @@ const Routes = ({ name }) => {
         <div>
           <div>
             <Switch>
+<<<<<<< HEAD
               <Route path="/" exact={true} component={Footer}/>
               // <Route path="/" exact={true} component={Chart}/>
+=======
+              {/* <Route path="/" exact={true} component={MainPageContainer}/> */}
+              <Route path="/" exact={true} component={Chart}/>
+>>>>>>> 9bbf5350129f22747cd646f7a3913eb872f19591
             </Switch>
           </div>
         </div>

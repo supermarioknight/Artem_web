@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import Routes from './Routes';
 import { BrowserRouter } from 'react-router-dom';
 
-
 const AppContainer = ({ name }) => {
     return (
       <BrowserRouter>
