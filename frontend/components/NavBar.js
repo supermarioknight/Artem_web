@@ -10,7 +10,7 @@ class NavBar extends React.Component {
               <li className="login"><a href="#">LOGIN</a></li>
               <li className="about"><a href="#">ABOUT</a></li>
               <li className="home"><a href="#">HOME</a></li>
-              <li className="logo"><img src="http://preview.ibb.co/jx5Mcb/Logo.png" alt="Logo" width="125" height="125"/></li>
+              <li className="logo"><img src="http://preview.ibb.co/jx5Mcb/Logo.png" alt="Logo" width="175" height="175"/></li>
           </ul>
       </div>
     );
