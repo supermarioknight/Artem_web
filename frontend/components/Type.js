@@ -40,7 +40,7 @@ export default class Type extends Component {
           />
         </div>
         <div className="type-caption">
-          <img src="https://preview.ibb.co/jnguxb/intertwine.png" alt="intertwine" border="0"/>
+          <img className="type-picture" src="https://preview.ibb.co/j3BKDG/imageelement.png" alt="intertwine" border="0"/>
         </div>
       </div>
     )
