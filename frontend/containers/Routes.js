@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 import Type from '../components/Type';
+import Chart from '../components/chart.js'
 
 
 // export default class Routes extends Component {
@@ -21,7 +22,7 @@ const Routes = ({ name }) => {
         <div>
           <div>
             <Switch>
-              <Route path="/" exact={true} component={Type}/>
+              <Route path="/" exact={true} component={Chart}/>
             </Switch>
           </div>
         </div>
