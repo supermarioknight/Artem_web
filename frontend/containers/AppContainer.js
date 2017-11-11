@@ -2,11 +2,14 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import Title from '../components/Title';
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 const AppContainer = ({ name }) => {
     return (
         <div>
-            <Title name={name} />
+            <NavBar />
+            <Footer />
         </div>
     );
 };

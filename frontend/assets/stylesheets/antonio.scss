@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.navEl {
+    list-style-type: none;
+    margin:0;
+    overflow: hidden;
+    padding-left: 20px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.login{
+  font-family: 'Playfair Display', serif;
+      margin-top: 62px;
+      font-size: 18px;
+      float: right;
+      padding-left: 5px;
+      margin-right: 25px;
+      letter-spacing: 4px;
+}
+
+.about{
+      font-family: 'Playfair Display', serif;
+      margin-top: 62px;
+      font-size: 18px;
+      float: right;
+      padding-left: 5px;
+      padding-right: 15px;
+      margin-right: 13px;
+      letter-spacing: 4px;
+}
+
+.home{
+      font-family: 'Playfair Display', serif;
+      margin-top: 62px;
+      font-size: 18px;
+      float: right;
+      padding-left: 5px;
+      padding-right: 15px;
+      margin-right: 13px;
+      letter-spacing: 4px;
+}
+
+.signup {
+  font-family: 'Playfair Display', serif;
+  margin-top: 70px;
+  font-size: 18px;
+  float: right;
+  padding-left: 5px;
+  padding-right: 50px;
+  margin-right: 65px;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #111;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: 60px;
+  height: 225px;
+  background-size: 45px 45px;
+}
+
+.topnav {
+  height: 225px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.left{
+  list-style-type: none;
+  font-family: 'Playfair Display', serif;
+  margin-top: 13px;
+  font-size: 22px;
+  margin-top: 18px;
+  margin-left: 30px;
+  height: 50px;
+  color: white;
+  float: left;
+}
+
+.left1{
+  list-style-type: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  margin-top: 22px;
+  margin-left: 40px;
+  height: 50px;
+  color: white;
+  float: left;
+}
+
+.right1{
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-right: 13px;
+  height: 40px;
+  color: white;
+  float: right;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #111;
+  color: white;
+}
+
+.fa-twitter {
+  background: #111;
+  color: white;
+}
+
+.fa-instagram {
+  background: #111;
+  color: white;
+}
