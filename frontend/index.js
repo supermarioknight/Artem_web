@@ -5,6 +5,7 @@ import Root from './containers/Root';
 
 import './assets/stylesheets/base.scss';
 import './assets/stylesheets/antonio.scss';
+import './assets/stylesheets/spike.scss';
 
 const store = configureStore();
 
