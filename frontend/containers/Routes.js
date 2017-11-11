@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
+import Type from './components/Type'
 
 
 export default class Routes extends Component {
@@ -8,7 +9,7 @@ export default class Routes extends Component {
       return(
        <div>
          <Switch>
-           {/* <Route path="/" exact={true} component={MainPageContainer}/> */}
+           <Route path="/" exact={true} component={Type}/>
          </Switch>
        </div>
      )
