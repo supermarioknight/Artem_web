@@ -23,13 +23,8 @@ const Routes = ({ name }) => {
         <div>
           <div>
             <Switch>
-<<<<<<< HEAD
               <Route path="/" exact={true} component={Footer}/>
               // <Route path="/" exact={true} component={Chart}/>
-=======
-              {/* <Route path="/" exact={true} component={MainPageContainer}/> */}
-              <Route path="/" exact={true} component={Chart}/>
->>>>>>> 9bbf5350129f22747cd646f7a3913eb872f19591
             </Switch>
           </div>
         </div>
