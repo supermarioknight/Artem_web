@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 import Type from '../components/Type';
 import MainPageContainer from './MainPageContainer';
+import Chart from '../components/chart.js'
 
 
 // export default class Routes extends Component {
@@ -23,6 +24,7 @@ const Routes = ({ name }) => {
           <div>
             <Switch>
               <Route path="/" exact={true} component={MainPageContainer}/>
+              <Route path="/" exact={true} component={Chart}/>
             </Switch>
           </div>
         </div>
