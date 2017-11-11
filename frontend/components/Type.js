@@ -11,12 +11,10 @@ const Type = ({ name }) => {
 };
 
 Type.propTypes = {
-    name: PropTypes.string,
 };
 
 const mapStateToProps = (state) => {
     return {
-        name: state.name
     };
 };
 

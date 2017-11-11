@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
-import Title from '../components/Title';
+import Routes from './Routes';
+import { BrowserRouter } from 'react-router-dom';
 
 const AppContainer = ({ name }) => {
     return (
-        <div>
-            <Title name={name} />
-        </div>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     );
 };
 
