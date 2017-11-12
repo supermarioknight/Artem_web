@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .navEl {
     list-style-type: none;
@@ -67,7 +68,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    color: #111;
+    color: #BF272C;
 }
 .logo{
   margin-top: 10px;
@@ -81,22 +82,96 @@ li a:hover {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #5F5F5F;
     color: white;
     text-align: center;
+    height: 260px;
 }
+
+.leftIcon{
+  list-style-type: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin-left: 50px;
+  height: 50px;
+  color: white;
+  float: left;
+}
+
+.top{
+  height:175px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom{
+  height: 75px;
+}
+
+.findUs{
+  margin-top: 20px;
+  width: 300px;
+}
+
+.firstRow{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.opportunity{
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.buttonMore{
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  border-color: white;
+  color: white;
+  font-size: 32px;
+}
+.button{
+  margin-top: 60px;
+}
+
+.career{
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.rowPlace{
+  font-family: 'Playfair Display', serif;
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.findTitle{
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.rowPlace{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
 
 .left{
   list-style-type: none;
   font-family: 'Playfair Display', serif;
-  margin-top: 13px;
-  font-size: 22px;
-  margin-top: 18px;
-  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 60px;
   height: 50px;
   color: white;
   float: left;
@@ -124,9 +199,10 @@ li a:hover {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   width: 15px;
+  height: 15px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -149,4 +225,48 @@ li a:hover {
 .fa-instagram {
   background: #5F5F5F;
   color: white;
+}
+
+.demoBack{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 250px;
+}
+
+.pic{
+  height:375px;
+  width: 80%
+}
+
+.Artist{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 250px;
+}
+
+.bigasscontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.risingContemporaries{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+}
+
+.Line{
+  margin-top: 140px;
+}
+
+.artImage{
+  margin-left: 60px;
+
 }
