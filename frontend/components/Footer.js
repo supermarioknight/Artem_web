@@ -6,6 +6,7 @@ class Footer extends React.Component {
     return (
       <div className="footer">
 
+<<<<<<< HEAD
           <div className="top">
             <div className="findUs">
               <div className="findTitle">
@@ -66,6 +67,16 @@ class Footer extends React.Component {
         </div>
 
 
+=======
+      <div className="socialbar">
+        <li className="left"> ©2017 Artem, Inc. </li>
+        <li className="right1"><a href="#" className="fa fa-facebook"></a></li>
+        <li className="right1"><a href="#" className="fa fa-twitter"></a></li>
+        <li className="right1"><a href="#" className="fa fa-instagram"></a></li>
+      </div>
+
+      </div>
+>>>>>>> f0879079c392da28d5a1dcdfffa75d356caeac3a
     );
   }
 }
